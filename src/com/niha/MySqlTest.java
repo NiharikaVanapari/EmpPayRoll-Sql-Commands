@@ -31,5 +31,9 @@ public class MySqlTest {
 
     ALTER TABLE employee_payroll add column department varchar(10);
 
+    ALTER TABLE employee_payroll add column Basic_Pay int, add column
+    Deductions int,add column Taxable_Pay int,add column
+    Income_Tax int,add column Net_Pay int;
+
 
 }
