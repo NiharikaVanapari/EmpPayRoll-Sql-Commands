@@ -10,4 +10,7 @@ public class MySqlTest {
             name varchar(50),
     salary INT,
     start_date DATE NOT NULL);
+
+    select * from employee_payroll;
+
 }
