@@ -23,4 +23,10 @@ public class MySqlTest {
     UPDATE employee_payroll set gender = "M"
     where id = 1;
 
+    SELECT SUM(salary) from employee_payroll where gender = "F" group by gender;
+    SELECT AVG(salary) from employee_payroll where gender = "F" group by gender;
+    SELECT MIN(salary) from employee_payroll where gender = "F" group by gender;
+    SELECT MAX(salary) from employee_payroll where gender = "F" group by gender;
+    SELECT COUNT(salary) from employee_payroll where gender = "F" group by gender;
+
 }
