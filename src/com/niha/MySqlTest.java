@@ -29,4 +29,7 @@ public class MySqlTest {
     SELECT MAX(salary) from employee_payroll where gender = "F" group by gender;
     SELECT COUNT(salary) from employee_payroll where gender = "F" group by gender;
 
+    ALTER TABLE employee_payroll add column department varchar(10);
+
+
 }
